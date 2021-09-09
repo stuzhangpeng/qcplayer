@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mylistwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mylistwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug\moc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_mylistwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_mylistwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClCompile Include="debug\qrc_res.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\qrc_res.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClInclude Include="ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\icon\3gp.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\???.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\CAPTION_DEF.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\FolderFlag.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\amr.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\ass.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\audio_default_thumbnail.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\avi.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\background.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\bg.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\bofangkongzhi.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\cda.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\default.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\delete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\fileadd.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\flv.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\icon_clear_list.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\idx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\ifo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\img_0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\liebiao.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\m4a.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\main_frame_background_static.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\media.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\media_capture_bg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\mkv.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\mov.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\mp3.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\mp4.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\mpg.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\pause.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\pause.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\play.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\pmp.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\qpl.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\ra.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="res.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="picture\icon\rm.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\shangyishou.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\shangyishou.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\smi.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\soundcontrol.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\srt.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\ssa.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\stop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\sub.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\vcd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\video_default_thumbnail.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\vob.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\wav.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\wma.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\icon\wmv.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="picture\xiayishou.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
